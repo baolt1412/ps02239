@@ -52,17 +52,17 @@ Public Class Chinh_sua_du_lieu_5
         Dim connect As New SqlConnection(someeconnect)
         connect.Open()
 
-        Dim themdulieu As String = "insert into Chi_Tiet_HD Values (@Ma_chitiet_HD, @So_HD, @So_Luong, @Gia_Ban, @Thue_SP, @Thanh_Tien, @Hoa_Don_So_HD)"
+        Dim themdulieu As String = "insert into Chi_Tiet_HD Values (@So_HD, @So_Luong, @Gia_Ban, @Thue_SP, @Thanh_Tien, @Hoa_Don_So_HD, @San_Pham_Ma_SP)"
         Dim unk As New SqlCommand(themdulieu, connect)
         Dim tb As New DataTable
         Try
-            unk.Parameters.AddWithValue("@Ma_chitiet_HD", txchinhsuadulieuchitietHD1.Text)
-            unk.Parameters.AddWithValue("@So_HD", txchinhsuadulieuchitietHD2.Text)
-            unk.Parameters.AddWithValue("@So_Luong", txchinhsuadulieuchitietHD3.Text)
-            unk.Parameters.AddWithValue("@Gia_Ban", txchinhsuadulieuchitietHD4.Text)
-            unk.Parameters.AddWithValue("@Thue_SP", txchinhsuadulieuchitietHD5.Text)
-            unk.Parameters.AddWithValue("@Thanh_Tien", txchinhsuadulieuchitietHD6.Text)
-            unk.Parameters.AddWithValue("@Hoa_Don_So_HD", txchinhsuadulieuchitietHD7.Text)
+            unk.Parameters.AddWithValue("@So_HD", txchinhsuadulieuchitietHD1.Text)
+            unk.Parameters.AddWithValue("@So_Luong", txchinhsuadulieuchitietHD2.Text)
+            unk.Parameters.AddWithValue("@Gia_Ban", txchinhsuadulieuchitietHD3.Text)
+            unk.Parameters.AddWithValue("@Thue_SP", txchinhsuadulieuchitietHD4.Text)
+            unk.Parameters.AddWithValue("@Thanh_Tien", txchinhsuadulieuchitietHD5.Text)
+            unk.Parameters.AddWithValue("@Hoa_Don_So_HD", txchinhsuadulieuchitietHD6.Text)
+            unk.Parameters.AddWithValue("@San_Pham_Ma_SP", txchinhsuadulieuchitietHD7.Text)
             unk.ExecuteNonQuery()
             connect.Close()
         Catch ex As Exception
@@ -79,17 +79,17 @@ Public Class Chinh_sua_du_lieu_5
         Dim connect As New SqlConnection(someeconnect)
         connect.Open()
 
-        Dim themdulieu As String = "UPDATE Chi_Tiet_HD SET So_HD = @So_HD, So_Luong = @So_Luong, Gia_Ban = @Gia_Ban, Thue_SP= @Thue_SP, Thanh_Tien = @Thanh_Tien, Hoa_Don_So_HD = @Hoa_Don_So_HD WHERE Ma_chitiet_HD = @Ma_chitiet_HD"
+        Dim themdulieu As String = "UPDATE Chi_Tiet_HD SET So_Luong = @So_Luong, Gia_Ban = @Gia_Ban, Thue_SP = @Thue_SP, Thanh_Tien= @Thanh_Tien, Hoa_Don_So_HD = @Hoa_Don_So_HD, San_Pham_Ma_SP = @San_Pham_Ma_SP WHERE So_HD = @So_HD"
         Dim unk As New SqlCommand(themdulieu, connect)
         Dim tb As New DataTable
         Try
-            unk.Parameters.AddWithValue("@Ma_chitiet_HD", txchinhsuadulieuchitietHD1.Text)
-            unk.Parameters.AddWithValue("@So_HD", txchinhsuadulieuchitietHD2.Text)
-            unk.Parameters.AddWithValue("@So_Luong", txchinhsuadulieuchitietHD3.Text)
-            unk.Parameters.AddWithValue("@Gia_Ban", txchinhsuadulieuchitietHD4.Text)
-            unk.Parameters.AddWithValue("@Thue_SP", txchinhsuadulieuchitietHD5.Text)
-            unk.Parameters.AddWithValue("@Thanh_Tien", txchinhsuadulieuchitietHD6.Text)
-            unk.Parameters.AddWithValue("@Hoa_Don_So_HD", txchinhsuadulieuchitietHD7.Text)
+            unk.Parameters.AddWithValue("@So_HD", txchinhsuadulieuchitietHD1.Text)
+            unk.Parameters.AddWithValue("@So_Luong", txchinhsuadulieuchitietHD2.Text)
+            unk.Parameters.AddWithValue("@Gia_Ban", txchinhsuadulieuchitietHD3.Text)
+            unk.Parameters.AddWithValue("@Thue_SP", txchinhsuadulieuchitietHD4.Text)
+            unk.Parameters.AddWithValue("@Thanh_Tien", txchinhsuadulieuchitietHD5.Text)
+            unk.Parameters.AddWithValue("@Hoa_Don_So_HD", txchinhsuadulieuchitietHD6.Text)
+            unk.Parameters.AddWithValue("@San_Pham_Ma_SP", txchinhsuadulieuchitietHD7.Text)
             unk.ExecuteNonQuery()
             connect.Close()
         Catch ex As Exception
@@ -106,11 +106,11 @@ Public Class Chinh_sua_du_lieu_5
         Dim connect As New SqlConnection(someeconnect)
         connect.Open()
 
-        Dim xoadulieu As String = "Delete from Chi_Tiet_HD where Ma_chitiet_HD = @Ma_chitiet_HD"
+        Dim xoadulieu As String = "Delete from Chi_Tiet_HD where So_HD = @So_HD"
         Dim unk As New SqlCommand(xoadulieu, connect)
         Dim tb As New DataTable
         Try
-            unk.Parameters.AddWithValue("@Ma_chitiet_HD", txchinhsuadulieuchitietHD1.Text)
+            unk.Parameters.AddWithValue("@So_HD", txchinhsuadulieuchitietHD1.Text)
             unk.ExecuteNonQuery()
             connect.Close()
         Catch ex As Exception

@@ -32,18 +32,17 @@ Public Class Chinh_sua_du_lieu_4
         Dim connect As New SqlConnection(someeconnect)
         connect.Open()
 
-        Dim themdulieu As String = "insert into Hoa_Don Values (@So_HD, @Ma_KH, @Ten_KH, @Ma_Loai_SP, @Ten_SP, @Tong_tien_HD, @San_Pham_Ma_SP, @Khach_Hang_Ma_KH)"
+        Dim themdulieu As String = "insert into Hoa_Don Values (@So_HD, @Ten_KH, @Ten_SP, @Tong_tien_HD, @San_Pham_Ma_SP, @Khach_Hang_Ma_KH, @Nhan_vien_Ma_NV)"
         Dim unk As New SqlCommand(themdulieu, connect)
         Dim tb As New DataTable
         Try
             unk.Parameters.AddWithValue("@So_HD", txchinhsuadulieuHD1.Text)
-            unk.Parameters.AddWithValue("@Ma_KH", txchinhsuadulieuHD2.Text)
-            unk.Parameters.AddWithValue("@Ten_KH", txchinhsuadulieuHD3.Text)
-            unk.Parameters.AddWithValue("@Ma_Loai_SP", txchinhsuadulieuHD4.Text)
-            unk.Parameters.AddWithValue("@Ten_SP", txchinhsuadulieuHD5.Text)
-            unk.Parameters.AddWithValue("@Tong_tien_HD", txchinhsuadulieuHD6.Text)
-            unk.Parameters.AddWithValue("@San_Pham_Ma_SP", txchinhsuadulieuHD7.Text)
-            unk.Parameters.AddWithValue("@Khach_Hang_Ma_KH", txchinhsuadulieuHD8.Text)
+            unk.Parameters.AddWithValue("@Ten_KH", txchinhsuadulieuHD2.Text)
+            unk.Parameters.AddWithValue("@Ten_SP", txchinhsuadulieuHD3.Text)
+            unk.Parameters.AddWithValue("@Tong_tien_HD", txchinhsuadulieuHD4.Text)
+            unk.Parameters.AddWithValue("@San_Pham_Ma_SP", txchinhsuadulieuHD5.Text)
+            unk.Parameters.AddWithValue("@Khach_Hang_Ma_KH", txchinhsuadulieuHD6.Text)
+            unk.Parameters.AddWithValue("@Nhan_vien_Ma_NV", txchinhsuadulieuHD7.Text)
             unk.ExecuteNonQuery()
             connect.Close()
         Catch ex As Exception
@@ -80,18 +79,17 @@ Public Class Chinh_sua_du_lieu_4
         Dim connect As New SqlConnection(someeconnect)
         connect.Open()
 
-        Dim themdulieu As String = "UPDATE Hoa_Don SET Ma_KH = @Ma_KH, Ten_KH = @Ten_KH, Ma_Loai_SP = @Ma_Loai_SP, Ten_SP = @Ten_SP, Tong_tien_HD = @Tong_tien_HD, San_Pham_Ma_SP = @San_Pham_Ma_SP, Khach_Hang_Ma_KH = @Khach_Hang_Ma_KH WHERE So_HD = @So_HD"
+        Dim themdulieu As String = "UPDATE Hoa_Don SET Ten_KH = @Ten_KH, Ten_SP = @Ten_SP, Tong_tien_HD = @Tong_tien_HD, San_Pham_Ma_SP = @San_Pham_Ma_SP, Khach_Hang_Ma_KH = @Khach_Hang_Ma_KH, Nhan_vien_Ma_NV = @Nhan_vien_Ma_NV WHERE So_HD = @So_HD"
         Dim unk As New SqlCommand(themdulieu, connect)
         Dim tb As New DataTable
         Try
             unk.Parameters.AddWithValue("@So_HD", txchinhsuadulieuHD1.Text)
-            unk.Parameters.AddWithValue("@Ma_KH", txchinhsuadulieuHD2.Text)
-            unk.Parameters.AddWithValue("@Ten_KH", txchinhsuadulieuHD3.Text)
-            unk.Parameters.AddWithValue("@Ma_Loai_SP", txchinhsuadulieuHD4.Text)
-            unk.Parameters.AddWithValue("@Ten_SP", txchinhsuadulieuHD5.Text)
-            unk.Parameters.AddWithValue("@Tong_tien_HD", txchinhsuadulieuHD6.Text)
-            unk.Parameters.AddWithValue("@San_Pham_Ma_SP", txchinhsuadulieuHD7.Text)
-            unk.Parameters.AddWithValue("@Khach_Hang_Ma_KH", txchinhsuadulieuHD8.Text)
+            unk.Parameters.AddWithValue("@Ten_KH", txchinhsuadulieuHD2.Text)
+            unk.Parameters.AddWithValue("@Ten_SP", txchinhsuadulieuHD3.Text)
+            unk.Parameters.AddWithValue("@Tong_tien_HD", txchinhsuadulieuHD4.Text)
+            unk.Parameters.AddWithValue("@San_Pham_Ma_SP", txchinhsuadulieuHD5.Text)
+            unk.Parameters.AddWithValue("@Khach_Hang_Ma_KH", txchinhsuadulieuHD6.Text)
+            unk.Parameters.AddWithValue("@Nhan_vien_Ma_NV", txchinhsuadulieuHD7.Text)
             unk.ExecuteNonQuery()
             connect.Close()
         Catch ex As Exception

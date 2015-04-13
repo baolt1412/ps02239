@@ -58,7 +58,7 @@ Partial Class He_thong_quan_ly
         'ĐăngXuấtToolStripMenuItem
         '
         Me.ĐăngXuấtToolStripMenuItem.Name = "ĐăngXuấtToolStripMenuItem"
-        Me.ĐăngXuấtToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.ĐăngXuấtToolStripMenuItem.Size = New System.Drawing.Size(127, 22)
         Me.ĐăngXuấtToolStripMenuItem.Text = "Đăng xuất"
         '
         'DanhMụcToolStripMenuItem
@@ -71,32 +71,32 @@ Partial Class He_thong_quan_ly
         'BảngDữLiệuSảnPhẩmToolStripMenuItem
         '
         Me.BảngDữLiệuSảnPhẩmToolStripMenuItem.Name = "BảngDữLiệuSảnPhẩmToolStripMenuItem"
-        Me.BảngDữLiệuSảnPhẩmToolStripMenuItem.Size = New System.Drawing.Size(223, 22)
+        Me.BảngDữLiệuSảnPhẩmToolStripMenuItem.Size = New System.Drawing.Size(215, 22)
         Me.BảngDữLiệuSảnPhẩmToolStripMenuItem.Text = "Danh sách khách hàng"
         '
         'DanhSáchSảnPhẩmToolStripMenuItem
         '
         Me.DanhSáchSảnPhẩmToolStripMenuItem.Name = "DanhSáchSảnPhẩmToolStripMenuItem"
-        Me.DanhSáchSảnPhẩmToolStripMenuItem.Size = New System.Drawing.Size(223, 22)
+        Me.DanhSáchSảnPhẩmToolStripMenuItem.Size = New System.Drawing.Size(215, 22)
         Me.DanhSáchSảnPhẩmToolStripMenuItem.Text = "Danh sách sản phẩm"
         '
         'DanhSáchHóaĐơnToolStripMenuItem
         '
         Me.DanhSáchHóaĐơnToolStripMenuItem.Name = "DanhSáchHóaĐơnToolStripMenuItem"
-        Me.DanhSáchHóaĐơnToolStripMenuItem.Size = New System.Drawing.Size(223, 22)
+        Me.DanhSáchHóaĐơnToolStripMenuItem.Size = New System.Drawing.Size(215, 22)
         Me.DanhSáchHóaĐơnToolStripMenuItem.Text = "Danh sách hóa đơn"
         '
         'DanhSáchLoạiSảnPhẩmToolStripMenuItem
         '
         Me.DanhSáchLoạiSảnPhẩmToolStripMenuItem.Name = "DanhSáchLoạiSảnPhẩmToolStripMenuItem"
-        Me.DanhSáchLoạiSảnPhẩmToolStripMenuItem.Size = New System.Drawing.Size(223, 22)
+        Me.DanhSáchLoạiSảnPhẩmToolStripMenuItem.Size = New System.Drawing.Size(215, 22)
         Me.DanhSáchLoạiSảnPhẩmToolStripMenuItem.Text = "Danh sách loại sản phẩm"
         '
         'DanhSáchChiTiếtSảnPhẩmToolStripMenuItem
         '
         Me.DanhSáchChiTiếtSảnPhẩmToolStripMenuItem.Name = "DanhSáchChiTiếtSảnPhẩmToolStripMenuItem"
-        Me.DanhSáchChiTiếtSảnPhẩmToolStripMenuItem.Size = New System.Drawing.Size(223, 22)
-        Me.DanhSáchChiTiếtSảnPhẩmToolStripMenuItem.Text = "Danh sách chi tiết sản phẩm"
+        Me.DanhSáchChiTiếtSảnPhẩmToolStripMenuItem.Size = New System.Drawing.Size(215, 22)
+        Me.DanhSáchChiTiếtSảnPhẩmToolStripMenuItem.Text = "Danh sách chi tiết hóa đơn"
         '
         'ChứcNăngToolStripMenuItem
         '
@@ -134,8 +134,11 @@ Partial Class He_thong_quan_ly
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.BackgroundImage = Global.WindowsApplication2.My.Resources.Resources.hand
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.ClientSize = New System.Drawing.Size(445, 228)
         Me.Controls.Add(Me.MenuStrip1)
+        Me.DoubleBuffered = True
         Me.Name = "He_thong_quan_ly"
         Me.Text = "Hệ thống quản lý"
         Me.MenuStrip1.ResumeLayout(False)

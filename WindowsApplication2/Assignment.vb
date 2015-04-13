@@ -11,7 +11,7 @@ Public Class Assignment
         Dim someeconnect As String = "workstation id=ps02239assign.mssql.somee.com;packet size=4096;user id=baolt1412_SQLLogin_1;pwd=fuisprhyk9;data source=ps02239assign.mssql.somee.com;persist security info=False;initial catalog=ps02239assign"
 
         Dim connect As SqlConnection = New SqlConnection(someeconnect)
-        Dim sqlAdapter As New SqlDataAdapter("select * from Khach_Hang where Ma_KH='" & taikhoan1.Text & "' and Ten_KH='" & matkhau1.Text & "' ", connect)
+        Dim sqlAdapter As New SqlDataAdapter("select * from Nhan_vien where Ma_NV='" & taikhoan1.Text & "' and Ten_NV='" & matkhau1.Text & "' ", connect)
         Dim tb As New DataTable
 
         Try

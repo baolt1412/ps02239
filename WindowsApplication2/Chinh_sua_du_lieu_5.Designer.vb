@@ -121,7 +121,7 @@ Partial Class Chinh_sua_du_lieu_5
         'ĐăngXuấtToolStripMenuItem
         '
         Me.ĐăngXuấtToolStripMenuItem.Name = "ĐăngXuấtToolStripMenuItem"
-        Me.ĐăngXuấtToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.ĐăngXuấtToolStripMenuItem.Size = New System.Drawing.Size(129, 22)
         Me.ĐăngXuấtToolStripMenuItem.Text = "Đăng xuất"
         '
         'bangdulieuchitietHD2
@@ -247,9 +247,9 @@ Partial Class Chinh_sua_du_lieu_5
         Me.Label4.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.Location = New System.Drawing.Point(22, 143)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(50, 15)
+        Me.Label4.Size = New System.Drawing.Size(90, 15)
         Me.Label4.TabIndex = 48
-        Me.Label4.Text = "Giá bán"
+        Me.Label4.Text = "Thuế sản phẩm"
         '
         'Label5
         '
@@ -257,9 +257,9 @@ Partial Class Chinh_sua_du_lieu_5
         Me.Label5.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.Location = New System.Drawing.Point(22, 171)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(90, 15)
+        Me.Label5.Size = New System.Drawing.Size(64, 15)
         Me.Label5.TabIndex = 47
-        Me.Label5.Text = "Thuế sản phẩm"
+        Me.Label5.Text = "Thành tiền"
         '
         'Label3
         '
@@ -267,9 +267,9 @@ Partial Class Chinh_sua_du_lieu_5
         Me.Label3.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(22, 116)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(56, 15)
+        Me.Label3.Size = New System.Drawing.Size(50, 15)
         Me.Label3.TabIndex = 46
-        Me.Label3.Text = "Số lượng"
+        Me.Label3.Text = "Giá bán"
         '
         'Label2
         '
@@ -277,9 +277,9 @@ Partial Class Chinh_sua_du_lieu_5
         Me.Label2.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(22, 88)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(39, 15)
+        Me.Label2.Size = New System.Drawing.Size(56, 15)
         Me.Label2.TabIndex = 45
-        Me.Label2.Text = "Số HD"
+        Me.Label2.Text = "Số lượng"
         '
         'txchinhsuadulieuchitietHD1
         '
@@ -294,9 +294,9 @@ Partial Class Chinh_sua_du_lieu_5
         Me.Label1.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(22, 58)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(84, 15)
+        Me.Label1.Size = New System.Drawing.Size(44, 15)
         Me.Label1.TabIndex = 44
-        Me.Label1.Text = "Mã chi tiết HD"
+        Me.Label1.Text = "Mã HĐ"
         '
         'Label6
         '
@@ -304,9 +304,9 @@ Partial Class Chinh_sua_du_lieu_5
         Me.Label6.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.Location = New System.Drawing.Point(22, 197)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(64, 15)
+        Me.Label6.Size = New System.Drawing.Size(69, 15)
         Me.Label6.TabIndex = 47
-        Me.Label6.Text = "Thành tiền"
+        Me.Label6.Text = "Số hóa đơn"
         '
         'txchinhsuadulieuchitietHD6
         '
@@ -321,9 +321,9 @@ Partial Class Chinh_sua_du_lieu_5
         Me.Label7.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label7.Location = New System.Drawing.Point(22, 223)
         Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(54, 15)
+        Me.Label7.Size = New System.Drawing.Size(82, 15)
         Me.Label7.TabIndex = 47
-        Me.Label7.Text = "Hóa đơn"
+        Me.Label7.Text = "Mã sản phẩm"
         '
         'txchinhsuadulieuchitietHD7
         '

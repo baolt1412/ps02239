@@ -5,9 +5,6 @@ Public Class Danh_sach_san_pham
     Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
 
     End Sub
-    Private Sub DataGridView1_CellContentClick(sender As Object, e As DataGridViewCellEventArgs) Handles bangdulieuSP1.CellContentClick
-
-    End Sub
 
     Private Sub bt1_Click(sender As Object, e As EventArgs) Handles btxemdulieu1.Click
         Dim someeconnect As String = "workstation id=ps02239assign.mssql.somee.com;packet size=4096;user id=baolt1412_SQLLogin_1;pwd=fuisprhyk9;data source=ps02239assign.mssql.somee.com;persist security info=False;initial catalog=ps02239assign"

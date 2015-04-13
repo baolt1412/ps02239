@@ -56,8 +56,6 @@ Partial Class Chinh_sua_du_lieu_4
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.txchinhsuadulieuHD7 = New System.Windows.Forms.TextBox()
-        Me.Label8 = New System.Windows.Forms.Label()
-        Me.txchinhsuadulieuHD8 = New System.Windows.Forms.TextBox()
         CType(Me.bangdulieuHD2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
@@ -65,7 +63,7 @@ Partial Class Chinh_sua_du_lieu_4
         'btxemdulieu_chinhsuaHD2
         '
         Me.btxemdulieu_chinhsuaHD2.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btxemdulieu_chinhsuaHD2.Location = New System.Drawing.Point(300, 258)
+        Me.btxemdulieu_chinhsuaHD2.Location = New System.Drawing.Point(300, 240)
         Me.btxemdulieu_chinhsuaHD2.Name = "btxemdulieu_chinhsuaHD2"
         Me.btxemdulieu_chinhsuaHD2.Size = New System.Drawing.Size(222, 23)
         Me.btxemdulieu_chinhsuaHD2.TabIndex = 24
@@ -75,7 +73,7 @@ Partial Class Chinh_sua_du_lieu_4
         'btthoatHD
         '
         Me.btthoatHD.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btthoatHD.Location = New System.Drawing.Point(528, 258)
+        Me.btthoatHD.Location = New System.Drawing.Point(528, 240)
         Me.btthoatHD.Name = "btthoatHD"
         Me.btthoatHD.Size = New System.Drawing.Size(75, 23)
         Me.btthoatHD.TabIndex = 23
@@ -85,7 +83,7 @@ Partial Class Chinh_sua_du_lieu_4
         'btxoaHD
         '
         Me.btxoaHD.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btxoaHD.Location = New System.Drawing.Point(206, 258)
+        Me.btxoaHD.Location = New System.Drawing.Point(206, 240)
         Me.btxoaHD.Name = "btxoaHD"
         Me.btxoaHD.Size = New System.Drawing.Size(75, 23)
         Me.btxoaHD.TabIndex = 21
@@ -95,7 +93,7 @@ Partial Class Chinh_sua_du_lieu_4
         'btthemHD
         '
         Me.btthemHD.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btthemHD.Location = New System.Drawing.Point(25, 258)
+        Me.btthemHD.Location = New System.Drawing.Point(25, 240)
         Me.btthemHD.Name = "btthemHD"
         Me.btthemHD.Size = New System.Drawing.Size(75, 23)
         Me.btthemHD.TabIndex = 20
@@ -107,7 +105,7 @@ Partial Class Chinh_sua_du_lieu_4
         Me.bangdulieuHD2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.bangdulieuHD2.Location = New System.Drawing.Point(300, 36)
         Me.bangdulieuHD2.Name = "bangdulieuHD2"
-        Me.bangdulieuHD2.Size = New System.Drawing.Size(303, 209)
+        Me.bangdulieuHD2.Size = New System.Drawing.Size(303, 185)
         Me.bangdulieuHD2.TabIndex = 19
         '
         'txchinhsuadulieuHD6
@@ -160,7 +158,7 @@ Partial Class Chinh_sua_du_lieu_4
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(82, 15)
         Me.Label5.TabIndex = 11
-        Me.Label5.Text = "Tên sản phẩm"
+        Me.Label5.Text = "Mã sản phẩm"
         '
         'Label4
         '
@@ -168,9 +166,9 @@ Partial Class Chinh_sua_du_lieu_4
         Me.Label4.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.Location = New System.Drawing.Point(22, 124)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(66, 15)
+        Me.Label4.Size = New System.Drawing.Size(74, 15)
         Me.Label4.TabIndex = 10
-        Me.Label4.Text = "Mã loại SP"
+        Me.Label4.Text = "Tổng tiền HĐ"
         '
         'Label3
         '
@@ -178,9 +176,9 @@ Partial Class Chinh_sua_du_lieu_4
         Me.Label3.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(22, 97)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(91, 15)
+        Me.Label3.Size = New System.Drawing.Size(82, 15)
         Me.Label3.TabIndex = 9
-        Me.Label3.Text = "Tên khách hàng"
+        Me.Label3.Text = "Tên sản phẩm"
         '
         'Label2
         '
@@ -190,7 +188,7 @@ Partial Class Chinh_sua_du_lieu_4
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(91, 15)
         Me.Label2.TabIndex = 8
-        Me.Label2.Text = "Mã khách hàng"
+        Me.Label2.Text = "Tên khách hàng"
         '
         'PhầnMềmHỗTrợToolStripMenuItem
         '
@@ -281,7 +279,7 @@ Partial Class Chinh_sua_du_lieu_4
         'btsuaHD
         '
         Me.btsuaHD.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btsuaHD.Location = New System.Drawing.Point(116, 258)
+        Me.btsuaHD.Location = New System.Drawing.Point(116, 240)
         Me.btsuaHD.Name = "btsuaHD"
         Me.btsuaHD.Size = New System.Drawing.Size(75, 23)
         Me.btsuaHD.TabIndex = 22
@@ -294,9 +292,9 @@ Partial Class Chinh_sua_du_lieu_4
         Me.Label6.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label6.Location = New System.Drawing.Point(22, 178)
         Me.Label6.Name = "Label6"
-        Me.Label6.Size = New System.Drawing.Size(74, 15)
+        Me.Label6.Size = New System.Drawing.Size(91, 15)
         Me.Label6.TabIndex = 7
-        Me.Label6.Text = "Tổng tiền HD"
+        Me.Label6.Text = "Mã khách hàng"
         '
         'MenuStrip1
         '
@@ -325,7 +323,7 @@ Partial Class Chinh_sua_du_lieu_4
         Me.Label7.Name = "Label7"
         Me.Label7.Size = New System.Drawing.Size(82, 15)
         Me.Label7.TabIndex = 7
-        Me.Label7.Text = "Mã sản phẩm"
+        Me.Label7.Text = "Mã nhân viên"
         '
         'txchinhsuadulieuHD7
         '
@@ -334,34 +332,16 @@ Partial Class Chinh_sua_du_lieu_4
         Me.txchinhsuadulieuHD7.Size = New System.Drawing.Size(165, 20)
         Me.txchinhsuadulieuHD7.TabIndex = 17
         '
-        'Label8
-        '
-        Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Calibri", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label8.Location = New System.Drawing.Point(22, 230)
-        Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(71, 15)
-        Me.Label8.TabIndex = 7
-        Me.Label8.Text = "Khách hàng"
-        '
-        'txchinhsuadulieuHD8
-        '
-        Me.txchinhsuadulieuHD8.Location = New System.Drawing.Point(116, 227)
-        Me.txchinhsuadulieuHD8.Name = "txchinhsuadulieuHD8"
-        Me.txchinhsuadulieuHD8.Size = New System.Drawing.Size(165, 20)
-        Me.txchinhsuadulieuHD8.TabIndex = 17
-        '
         'Chinh_sua_du_lieu_4
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(615, 293)
+        Me.ClientSize = New System.Drawing.Size(615, 275)
         Me.Controls.Add(Me.btxemdulieu_chinhsuaHD2)
         Me.Controls.Add(Me.btthoatHD)
         Me.Controls.Add(Me.btxoaHD)
         Me.Controls.Add(Me.btthemHD)
         Me.Controls.Add(Me.bangdulieuHD2)
-        Me.Controls.Add(Me.txchinhsuadulieuHD8)
         Me.Controls.Add(Me.txchinhsuadulieuHD7)
         Me.Controls.Add(Me.txchinhsuadulieuHD6)
         Me.Controls.Add(Me.txchinhsuadulieuHD5)
@@ -372,7 +352,6 @@ Partial Class Chinh_sua_du_lieu_4
         Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Label8)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label7)
         Me.Controls.Add(Me.btsuaHD)
@@ -422,6 +401,4 @@ Partial Class Chinh_sua_du_lieu_4
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Label7 As System.Windows.Forms.Label
     Friend WithEvents txchinhsuadulieuHD7 As System.Windows.Forms.TextBox
-    Friend WithEvents Label8 As System.Windows.Forms.Label
-    Friend WithEvents txchinhsuadulieuHD8 As System.Windows.Forms.TextBox
 End Class
